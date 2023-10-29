@@ -19,8 +19,6 @@ var projects_horizontal_lineElement = document.getElementById("projects-horizont
 var projectstextElement = document.getElementById("selfpromotion-projectstext");
 
 
-
-
 // On mouseover the horizonatal line will be increased
 
 profile_intro_fieldElement.onmouseover = function(){
