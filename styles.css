@@ -3,11 +3,12 @@
 
 body{
     background-color: #03043c;
+
 }
 
 /* Section 0 ( Header Section ) */
 
-.section0-header{
+/* .section0-header{
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -29,20 +30,23 @@ body{
 
 .header-text:hover{
     color: white;
-}
+} */
+
 
 /* Section 1 ( profile -intro Section ) */
 
-.profile-intro-field{
-    width: auto;
-    height: 80vh;
+.section1-profileintro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .profile-intro-field{
     display: flex;
     flex-direction: column;
-    max-width: 800px;
-    margin: 0px auto;
+    max-width: auto;
+    height: 80vh;
+    margin: 50px 0px auto;
     padding-top: 50px;
 }
 
@@ -92,8 +96,20 @@ body{
     font-family: 'Tilt Neon', sans-serif;
 
     border-color : #b2c1dd;
-    color: #c2b6a5;
     
+}
+
+.profileintro-button a{
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.profileintro-button:hover{
+    background-color: #6e56c8;
+}
+
+.profileintro-button:hover a{
+    color: antiquewhite;
 }
 
 /* Media Query ############### */
