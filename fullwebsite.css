@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
-.flexbox-row, .techology-field, .experience-container, .project-container, .selfpromotion-content-field, body, .container-padding, .projects-field, .social-icon-fieldcontainer {
+.flexbox-row, .technology-field, .experience-container, .project-container, .selfpromotion-content-field, body, .container-padding, .projects-field, .social-icon-fieldcontainer {
   display: flex;
   flex-direction: row;
 }
@@ -38,6 +38,11 @@
   text-decoration: none;
   
 }
+
+/* .technology-field{
+  row
+} */
+
 
 .para1, .technology-content, .experience-content-para, .project-content-para, .profile-intro-text, .profile-content-para {
   font-family: "Gabarito", sans-serif;
@@ -167,7 +172,7 @@
 
 .technology-content {
   padding: 0px 10px;
-  margin-right: 5px;
+  margin-right: 15px;
   border: #757171 0.5px;
   border-radius: 30px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
