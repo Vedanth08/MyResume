@@ -39,9 +39,9 @@
   
 }
 
-/* .technology-field{
-  row
-} */
+.technology-field{
+  flex-wrap: wrap;
+} 
 
 
 .para1, .technology-content, .experience-content-para, .project-content-para, .profile-intro-text, .profile-content-para {
@@ -176,6 +176,9 @@
   border: #757171 0.5px;
   border-radius: 30px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  flex: 1;
+  flex-basis: calc(30% - 20px);
+  text-align: center;
 }
 
 .project-container{
